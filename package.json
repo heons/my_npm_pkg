@@ -1,0 +1,19 @@
+{
+  "name": "my_npm_pkg",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heons/my_npm_pkg.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heons/my_npm_pkg/issues"
+  },
+  "homepage": "https://github.com/heons/my_npm_pkg#readme"
+}
