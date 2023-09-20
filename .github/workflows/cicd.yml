@@ -7,7 +7,14 @@ on:
       - reopened
       - synchronize
     branches:
-       - master
+      - master
+    paths-ignore:
+      - '**/*.md'
+      - '.*'
+      - '.github/**/*'
+      - 'docs/**/*'
+      - 'scripts/**/*'
+      - 'test/**/*'
 
 jobs:
   build_and_publish:
