@@ -25,6 +25,7 @@ jobs:
       - name: Run script - sub script with output
         id: bash-simple
         run: |
+          export LOG_LEVEL=${{ github.event.inputs.logLevel }}
           echo "run script"
           echo "Tags: ${{ github.event.inputs.tags }}"
 
