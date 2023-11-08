@@ -1,4 +1,4 @@
-name: master.pushed
+name: schedule
 
 on:
   schedule:
